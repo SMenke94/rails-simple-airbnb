@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-xs-8">
+      <div class="card flat-card">
+        <h2><%= @flat.name %></h2>
+        <h4><%= @flat.address %></h4>
+      </div>
+
+      <div class="card flat-card">
+        <h2>A bit more about this flat...</h2>
+        <p><%= @flat.description %></p>
+      </div>
+
+      <div class="card flat-card">
+        <h2>Details</h2>
+        <div class="flat-details">
+          <i class="fas fa-users"></i><span><%= @flat.number_of_guests %></span>
+          <i class="fas fa-euro-sign"></i><span><%= @flat.price_per_night %></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-4">
+      <div class="card flat-card">
+        <h4>Book this place!</h4>
+        <form action="#" class="form-group">
+          <input type="date" class="form-control input-form">
+          <input type="date" class="form-control input-form">
+          <input type="submit" value="Book" class="form-control btn btn-success">
+        </form>
+      </div>
+
+      <div class="card flat-card flat-share">
+        <div class="share">
+          <h4>Share</h4>
+        </div>
+        <div class="icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-pinterest-square"></i>
+          <i class="fas fa-envelope-square"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+

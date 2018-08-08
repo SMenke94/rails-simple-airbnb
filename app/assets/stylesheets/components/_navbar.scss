@@ -1,0 +1,28 @@
+/* Main navbar */
+.navbar-airbnb {
+  background: #F4F4F4;
+  transition: all 0.3s ease;
+  height: 55px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-airbnb {
+  color: black;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
